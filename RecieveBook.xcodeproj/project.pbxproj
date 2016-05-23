@@ -13,6 +13,10 @@
 		431735361CF2B86E00072508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431735341CF2B86E00072508 /* Main.storyboard */; };
 		431735381CF2B86E00072508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431735371CF2B86E00072508 /* Assets.xcassets */; };
 		4317353B1CF2B86E00072508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431735391CF2B86E00072508 /* LaunchScreen.storyboard */; };
+		431735441CF2C1F300072508 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 431735431CF2C1F300072508 /* DetailViewController.m */; };
+		436347771CF2E3D600EFAF8A /* aboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436347761CF2E3D600EFAF8A /* aboutViewController.m */; };
+		4363477A1CF2E64D00EFAF8A /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 436347781CF2E64D00EFAF8A /* about.jpg */; };
+		4363477B1CF2E64D00EFAF8A /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 436347791CF2E64D00EFAF8A /* about.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		431735371CF2B86E00072508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4317353A1CF2B86E00072508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4317353C1CF2B86E00072508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431735421CF2C1F300072508 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		431735431CF2C1F300072508 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		436347751CF2E3D600EFAF8A /* aboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutViewController.h; sourceTree = "<group>"; };
+		436347761CF2E3D600EFAF8A /* aboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutViewController.m; sourceTree = "<group>"; };
+		436347781CF2E64D00EFAF8A /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about.jpg; sourceTree = "<group>"; };
+		436347791CF2E64D00EFAF8A /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,12 @@
 				431735311CF2B86E00072508 /* ViewController.h */,
 				431735321CF2B86E00072508 /* ViewController.m */,
 				431735341CF2B86E00072508 /* Main.storyboard */,
+				436347751CF2E3D600EFAF8A /* aboutViewController.h */,
+				436347761CF2E3D600EFAF8A /* aboutViewController.m */,
+				431735421CF2C1F300072508 /* DetailViewController.h */,
+				431735431CF2C1F300072508 /* DetailViewController.m */,
+				436347781CF2E64D00EFAF8A /* about.jpg */,
+				436347791CF2E64D00EFAF8A /* about.html */,
 				431735371CF2B86E00072508 /* Assets.xcassets */,
 				431735391CF2B86E00072508 /* LaunchScreen.storyboard */,
 				4317353C1CF2B86E00072508 /* Info.plist */,
@@ -139,6 +155,8 @@
 				4317353B1CF2B86E00072508 /* LaunchScreen.storyboard in Resources */,
 				431735381CF2B86E00072508 /* Assets.xcassets in Resources */,
 				431735361CF2B86E00072508 /* Main.storyboard in Resources */,
+				4363477B1CF2E64D00EFAF8A /* about.html in Resources */,
+				4363477A1CF2E64D00EFAF8A /* about.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +170,8 @@
 				431735331CF2B86E00072508 /* ViewController.m in Sources */,
 				431735301CF2B86E00072508 /* AppDelegate.m in Sources */,
 				4317352D1CF2B86E00072508 /* main.m in Sources */,
+				436347771CF2E3D600EFAF8A /* aboutViewController.m in Sources */,
+				431735441CF2C1F300072508 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +322,7 @@
 				431735411CF2B86E00072508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
